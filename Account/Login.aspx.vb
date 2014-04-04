@@ -56,7 +56,7 @@ Partial Class Account_Login
                 End If
 
                 Debug.Print("valid login")
-                Response.Redirect("../About.aspx")
+                Response.Redirect("../Home.aspx")
 
                 con2.Close()
             End While
